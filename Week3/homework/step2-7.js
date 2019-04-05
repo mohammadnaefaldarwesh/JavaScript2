@@ -24,4 +24,8 @@ console.log(y);
 /* Primitive type variable like string,number are always pass as pass by value.
 Array and Object is passed as pass by reference or pass by value based on these two condition.
 if you are changing value of that Object or array with new Object or Array then it is pass by Value.
-if you are changing a property value of an object or array then it is pass by Reference.*/
+if you are changing a property value of an object or array then it is pass by Reference.
+in first function we are changing a  value of x and it is a number.
+we are assigning new value.so it is pass by value.
+in second function we are changing a property value of old object.
+we are not assigning new object or array to old one.so it is pass by reference. */
